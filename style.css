@@ -24,6 +24,17 @@ body{
     width: 100%;
 }
 
+.bold{
+    font-weight: 800;
+}
+
+.text-gradient{
+    background-image: linear-gradient(130deg, var(--Primary) 0%, #17c6a0 65%);
+    color: transparent;
+    background-clip: text;
+}
+
+
 .nav{
     position: fixed;
     display: flex;
@@ -67,7 +78,7 @@ nav{
     padding-top: 10vh;
     align-items: center;
     width: 100%;
-    height: 90vh;
+    min-height: 80vh;
     display: flex;
     justify-content: center;
     color: black;
@@ -90,7 +101,7 @@ nav{
     width: 45%;
   }
 
-  .main2 img{
+  .main2 img, .main2 video{
     object-fit: cover;
     height: 80%;
     width: 80%;
@@ -107,6 +118,44 @@ nav{
         display: none;
     }
   }
+
+
+.over{
+    width: 100%;
+    padding-top: 3vh;
+    width: 100%;
+    min-height: 250px;
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-size: 25px;
+    line-height: 45px;
+    letter-spacing: .5px;
+}
+
+.white-txt{
+    color: white;
+}
+
+.over h1{
+    /* color: var(--Primary); */
+    align-items: center;
+    width: 200%;
+    margin-bottom: 10px;
+    font-size: 42px;
+    min-height: 50px;
+    border-bottom: solid 5px var(--Primary);
+    width: 95%;
+}
+
+.over p{
+    font-size: 16px;
+    line-height: 25px;
+    padding-top: 10px;
+    letter-spacing: .5px;
+    color: black
+}
+
 
 button{
     border-radius: 15px;
