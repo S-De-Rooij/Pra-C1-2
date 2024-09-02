@@ -13,20 +13,24 @@
                     <img src="/img/logo.png">
                 </div>
             <nav>
-                <p>Home</p>
-                <p>Rooster</p>
-                <p>Docenten</p>
-                <button class="navbutton">Aanmelden</button>
+                <!-- <p onclick="" class="underline">Home</p>
+                <p onclick="">Rooster</p>
+                <p onclick="">Docenten</p> -->
+
+                <a href="#home">Home</a>
+                <a href="#rooster">Rooster</a>
+                <a href="#docenten">Docenten</a>
+                <button class="navbutton" onclick="">Aanmelden</button>
             </nav>
         </div>
     </div>
 
-    <div class="main">
+    <div class="main" id="home">
         <div class="main1">
-            <h1>Curio <span class="text-gradient">Software Developer</span> <br> Roosendaal / Breda</h1>
-            <p>Tijdens de mbo-opleiding software developer leer jij alles over apps en programmeren. Ben jij straks die expert met kennis van C#, PHP en Javascript?</p>
+            <h1 class="load-in">Curio <span class="text-gradient">Software Developer</span> <br> Roosendaal / Breda</h1>
+            <p class="load-in">Tijdens de mbo-opleiding software developer leer jij alles over apps en programmeren. Ben jij straks die expert met kennis van C#, PHP en Javascript?</p>
             
-            <div class="row">
+            <div class="row load-in">
                 <p><span class="bold">leeweg:</span><br>BOL / BBL</p>
                 <p><span class="bold">Duur:</span><br>4 jaar</p>
                 <p><span class="bold">Locatie:</span><br>Knipplein 11</p>
@@ -34,79 +38,93 @@
             </div>
             
             <div class="row" style="padding-top: 60px; padding-bottom: 30px;">
-                <button class="mainbutton1">Aanmelden</button>
-                <button class="mainbutton2">Open dagen</button>
+                <button class="mainbutton1 load-in">Aanmelden</button>
+                <button class="mainbutton2 load-in">Open dagen</button>
             </div>
         </div>
         <div class="main2">
-            <img src="img/mainFoto.jpg" alt="">
+            <img src="img/mainFoto.jpg" class="load-in" alt="">
         </div>
     </div>
 
     <div class="over">
 
-        <div class="main2">
+        <div class="main2 load-in">
             <video src="/img/video.mp4" style="margin-left: 0%; margin-right: 20%;" controls autoplay muted loop></video>
         </div>  
 
         <div class="main1">
-            <h1>Informatie over de Opleiding</h1>
-            <p>De opleiding wordt aangeboden in zowel Breda als Roosendaal, en biedt jou de kans om je te specialiseren in het ontwerpen en ontwikkelen van websites en applicaties. De eerste jaren volg je intensieve lessen op school, waar je de basisprincipes en gevorderde technieken leert. Daarna krijg je de unieke kans om vier dagen per week stage te lopen en één dag naar school te gaan. Hierdoor kun je snel praktijkervaring opdoen en ben je direct klaar voor een succesvolle carrière in het werkveld.</p>
+            <h1 class="load-in">Informatie over de Opleiding</h1>
+            <p class="load-in">De opleiding wordt aangeboden in zowel Breda als Roosendaal, en biedt jou de kans om je te specialiseren in het ontwerpen en ontwikkelen van websites en applicaties. De eerste jaren volg je intensieve lessen op school, waar je de basisprincipes en gevorderde technieken leert. Daarna krijg je de unieke kans om vier dagen per week stage te lopen en één dag naar school te gaan. Hierdoor kun je snel praktijkervaring opdoen en ben je direct klaar voor een succesvolle carrière in het werkveld.</p>
 
-            <button class="mainbutton1" style="margin-top: 25px;">Meeloopdagen</button>
+            <button class="mainbutton1 load-in" style="margin-top: 25px;">Meeloopdagen</button>
         </div>
   
     </div>
 
-    <div class="docenten">
+    <div class="docenten" id="docenten">
         <h1>Een paar docenten</h1>
         <div class="row2">
-            <div class="info">
+            <div class="info load-in">
                 <div class="pfp"></div>
                 <p><span class="bold">Joost Ambagts</span><br>j.ambagts@curio.nl <br> web/pra docent</p>
             </div>
 
-            <div class="info">
+            <div class="info load-in">
                 <div class="pfp"></div>
-                <p><span class="bold">Joost Ambagts</span><br>j.ambagts@curio.nl <br> web/pra docent</p>
+                <p><span class="bold">Kitty Martens</span><br>k.martens@curio.nl<br> pro docent</p>
             </div>
 
-            <div class="info">
+            <div class="info load-in">
                 <div class="pfp"></div>
-                <p><span class="bold">Joost Ambagts</span><br>j.ambagts@curio.nl <br> web/pra docent</p>
+                <p><span class="bold">Gizem Keskin</span><br>gb14@curio.nl <br> nederlands / engels</p>
             </div>
         </div>
 
         <div class="row2">
-            <div class="info">
+            <div class="info load-in">
                 <div class="pfp"></div>
-                <p><span class="bold">Joost Ambagts</span><br>j.ambagts@curio.nl <br> web/pra docent</p>
+                <p><span class="bold">Marc Ridders</span><br>m.ridders@curio.nl <br> native docent</p>
             </div>
 
-            <div class="info">
+            <div class="info load-in">
                 <div class="pfp"></div>
-                <p><span class="bold">Joost Ambagts</span><br>j.ambagts@curio.nl <br> web/pra docent</p>
+                <p><span class="bold">Wiro Verdiesen</span><br>w.verdiesen@curio.nl <br> reken docent</p>
             </div>
 
-            <div class="info">
+            <div class="info load-in">
                 <div class="pfp"></div>
-                <p><span class="bold">Joost Ambagts</span><br>j.ambagts@curio.nl <br> web/pra docent</p>
+                <p><span class="bold">Kasar, Mustafa</span><br>m.kasar@curio.nl <br> engels docent</p>
             </div>
         </div>
     </div>
 
-    <div class="rooster">
+    <div class="rooster" id="rooster">
         <div class="main1">
             <h1>Het rooster / vakken</h1>
-            <p><span class="bold">Web Development:</span><br>Leer dynamische websites bouwen met HTML, CSS en JavaScript.</p>
-            <p><span class="bold">Native:</span><br>Begin met Python en evolueer naar het bouwen van Windows-apps in C# en XAML voor een diepgaande ervaring in native app-ontwikkeling.</p>
-            <p><span class="bold">Praktijk:</span><br>Versterk theoretische kennis door samen met medestudenten in groepjes realistische projecten en casestudies aan te pakken.</p>
-            <p><span class="bold">Algo:</span><br>Algoritme is een vak waarbij je leert hoe algoritmes werken.</p>
-            <p><span class="bold">Generieke vakken:</span><br>De generieke vakken zoals Nederlands, Engels en rekenen om verder te leren voor het centraal examen.</p>
+            <p class="load-in"><span class="bold">Web Development:</span><br>Leer dynamische websites bouwen met HTML, CSS en JavaScript.</p>
+            <p class="load-in"><span class="bold">Native:</span><br>Begin met Python en evolueer naar het bouwen van Windows-apps in C# en XAML voor een diepgaande ervaring in native app-ontwikkeling.</p>
+            <p class="load-in"><span class="bold">Praktijk:</span><br>Versterk theoretische kennis door samen met medestudenten in groepjes realistische projecten en casestudies aan te pakken.</p>
+            <p class="load-in"><span class="bold">Algo:</span><br>Algoritme is een vak waarbij je leert hoe algoritmes werken.</p>
+            <p class="load-in"><span class="bold">Generieke vakken:</span><br>De generieke vakken zoals Nederlands, Engels en rekenen om verder te leren voor het centraal examen.</p>
         </div>
         <div class="main2">
-            <img src="/img/Rooster.png" alt="">
+            <img src="/img/Rooster.png" class="load-in" alt="">
         </div>
     </div>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2024 Curio. All Rights Reserved.</p>
+            <ul class="social-links">
+                <li><a href="#">Facebook</a></li>
+                <li><a href="#">Twitter</a></li>
+                <li><a href="#">Instagram</a></li>
+                <li><a href="#">LinkedIn</a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <script src="animation.js"></script>
 </body>
 </html>
