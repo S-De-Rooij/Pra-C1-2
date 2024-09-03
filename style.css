@@ -121,9 +121,6 @@ nav a:hover{
     margin-left: 20%;
   }
 
-
-
-
 .over{
     width: 100%;
     padding-top: 3vh;
@@ -334,8 +331,14 @@ button{
 
   @media (prefers-reduced-motion: no-preference) {
     .load-in-animation {
-        transition: opacity 1s ease, transform 1s ease;
+        transition: opacity .8s ease, transform .8s ease;
         opacity: 1;
         transform: none;
     }
+  }
+
+  .active{
+    text-decoration: underline;
+    color: black;
+    font-weight: 900;
   }
